@@ -9,11 +9,11 @@ class Annonce {
     Boolean isActive = Boolean.FALSE
     Date dateCreated
     Date lastUpdated
-    List illustrations
+    //List illustrations
 
-    static hasMany = [illustrations: Illustration]
+    //static hasMany = [illustrations: Illustration]
 
-    static belongsTo = [author: User]
+    static belongsTo = [user: User]
 
     static constraints = {
         title blank: false, nullable: false, size: 5..50
@@ -23,5 +23,9 @@ class Annonce {
     }
     static mapping = {
         id generator: 'uuid'
+    }
+
+    String toString(){
+        title
     }
 }

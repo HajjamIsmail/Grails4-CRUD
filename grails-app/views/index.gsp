@@ -18,6 +18,7 @@
         <h2>User Management made Simple</h2>
     </div>
     <p class="mt-5"><a href="/user" class="btn btn-primary btn-block">Manage Users</a></p>
+    <p class="mt-5"><a href="/annonce" class="btn btn-primary btn-block">Manage Annonces</a></p>
 </div>
 <footer class="footer navbar-dark bg-dark fixed-bottom">
     <div class="container">

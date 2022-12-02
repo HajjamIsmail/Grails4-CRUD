@@ -5,13 +5,13 @@ import grails.gorm.services.Service
 @Service(Annonce)
 interface AnnonceService {
 
-    Annonce get(Serializable id)
-
-    List<Annonce> list(Map args)
+    Annonce get(String id)
 
     Long count()
 
-    void delete(Serializable id)
+    //List<Annonce> list()
+
+    void delete(String id)
 
     Annonce save(Annonce annonce)
 

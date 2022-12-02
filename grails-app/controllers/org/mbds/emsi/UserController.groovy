@@ -38,6 +38,19 @@ class UserController{
         ]
         render dataTableResults as JSON
     }
+
+    def dynamicDropDown = {
+
+    }
+
+    def findAnnonceForUser = {
+        def user = User.get(params.user.id)
+        render(template: 'annonce', model: [annonce: user.annonces])
+    }
+
+    /*def listAllUser(){
+        def user = User.list()
+    }*/
     def index(){
 
     }

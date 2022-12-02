@@ -83,7 +83,7 @@
                 <div class="col-md-4">
                     <p class="text-center text-muted">&copy;
                         <span>${formatDate(date: new Date(), format:'yyyy')}</span>
-                        <a href="https://tucanoo.com">Tucanoo Solutions Ltd.</a>
+                        <a href="#">ISMAIL Solutions.</a>
                     </p>
                 </div>
             </div>

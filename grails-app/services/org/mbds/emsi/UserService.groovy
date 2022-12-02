@@ -9,6 +9,8 @@ interface UserService {
 
     Long count()
 
+    //List<User> list()
+
     void delete(String id)
 
     User save(User user)
